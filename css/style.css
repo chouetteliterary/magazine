@@ -35,6 +35,7 @@ body {
     background-color: #F8F5EE;
     color: #000;
     overflow-x: hidden;
+    cursor: url('img/favicon.png'), auto;
 }
 
 h1, h2, h3, h4, p {
