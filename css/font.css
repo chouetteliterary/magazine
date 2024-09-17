@@ -1,0 +1,41 @@
+@font-face { 
+    font-family: eb-garamond-font; 
+    src: url('../eb-garamond-font/static/EBGaramond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: eb-garamond-font; 
+    src: url('../eb-garamond-font/static/EBGaramond-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face { 
+    font-family: eb-garamond-font; 
+    src: url('../eb-garamond-font/static/EBGaramond-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: eb-garamond-font; 
+    src: url('../eb-garamond-font/static/EBGaramond-SemiBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face { 
+    font-family: impact-label-font; 
+    src: url('../impact-label-font/Impact\ Label\ Reversed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: homemade-apple-font; 
+    src: url('../homemade-apple-font/HomemadeApple-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

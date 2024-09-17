@@ -1,0 +1,52 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #F8F5EE;
+}
+
+.body {
+    font-family: eb-garamond-font;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+}
+
+.container {
+    height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 67px;
+    text-align: center;
+}
+
+.pdf-viewer {
+    /*height: 42vw;
+    width: 30vw;
+    min-width: 641px; 
+    min-height: 829.529px;*/
+    height: calc(100vh - 180px);
+    width: calc(72vh - 129px);
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        font-size: calc(100vw / 36);
+        line-height: calc(100vw / 36);
+    }
+}
+@media only screen and (min-width: 600px) {
+    .body {
+        font-size: calc(100vw / 58);
+        line-height: calc(100vw / 58);
+    }
+}
+@media screen and (min-width: 935px) {
+    .body {
+        font-size: calc(100vw / 78);
+        line-height: calc(100vw / 78);
+    }
+  }
