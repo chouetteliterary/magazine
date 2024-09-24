@@ -13,22 +13,19 @@ html, body {
 }
 
 .container {
-    height: 100vh;
     padding-top: 80px;
-    padding-bottom: 67px;
+    margin-bottom: 67px;
     text-align: center;
+    overflow: auto;
 }
 
 .pdf-viewer {
-    /*height: 42vw;
-    width: 30vw;
-    min-width: 641px; 
-    min-height: 829.529px;*/
-    height: calc(100vh - 180px);
-    width: calc(72vh - 129px);
+    height: calc((100vh - 180px) * 1.5);
+    width: calc((72vh - 129px) * 1.5);
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
+    border-color: #BD404E;
     display: block;
 }
 
