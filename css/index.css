@@ -100,4 +100,7 @@ html, body {
         font-size: calc(100vw / 30);
         line-height: calc(100vw / 30);
     }
+    .paper {
+        padding-left: 50px;
+    }
 }
