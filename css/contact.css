@@ -76,7 +76,7 @@ html, body {
 @media only screen and (min-width: 935px) {
     /* For desktop: */
     .text {
-        margin-top: calc(100vh / 12);
+        margin-top: calc(100vw / 8);
     }
     .subtitle {
         font-size: calc(100vw / 32);
